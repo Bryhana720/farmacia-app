@@ -1,0 +1,97 @@
+/* Estructura del contenedor */
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 800px; /* Reducción en el ancho máximo */
+  margin: 0 auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Estilo para el encabezado de la página */
+.product-image {
+  width: 60%; /* Reduce el tamaño de la imagen */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Espacio entre imagen y texto */
+  object-fit: cover; /* Para que no distorsione la imagen */
+}
+
+/* Estilo para el contenedor de la imagen y la información del producto */
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Estilo para el título del producto */
+.product-info h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilo para la descripción del producto */
+.product-description h3 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  color: #4CAF50; /* Color verde para el título */
+}
+
+.product-description p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Estilo para el contenedor de precios */
+.product-prices {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4CAF50; /* Verde para el precio de oferta */
+}
+
+.product-original-price {
+  font-size: 1.1rem;
+  color: #777;
+  text-decoration: line-through; /* Tachar el precio original */
+}
+
+.product-original-price span {
+  font-weight: bold;
+  color: #999;
+}
+
+/* Estilo para el botón de agregar al carrito */
+.add-to-cart-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.add-to-cart-btn:active {
+  transform: scale(0.98); /* Efecto de presionar el botón */
+}

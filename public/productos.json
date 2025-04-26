@@ -1,0 +1,168 @@
+/*En un proyecto real, consumiríamos una API externa*/
+/* Por ahora, simularemos datos locales*/
+
+/* Datos simulados de productos*/
+
+
+[
+    {
+      "id": 1,
+      "name": "Aspirina Efervescente 500 Mg  Caja X 12 Tabletas",
+      "description": "Alivio para el dolor y fiebre",
+      "price": 17.950,
+      "image": "/img/medicamento1.webp",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofeno 800Mg Ag Caja X 50 Tabletas",
+      "description": "Antiinflamatorio",
+      "price": 17.100,
+      "image": "/img/medicamento2.webp",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 3,
+      "name": "Clotrimazol 2% Colmed Crema Vaginal X 20G",
+      "description": "urinario",
+      "price": 27.350,
+      "image": "/img/medicamento4.webp",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 4,
+      "name": "Noraver Garganta Menta Forte X 12 Tabletas De Disolucion Bucal",
+      "description": "garganta",
+      "price": 22.750,
+      "image": "/img/medicamento3.webp",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 5,
+      "name": "Crema Dental Colgate Triple Accion X 3Und X 125Ml",
+      "description": "Crema dentales",
+      "price": 27.700,
+      "image": "/img/personal1.webp",
+      "category": "Cuidado Personal"
+    },
+    {
+      "id": 6,
+      "name": "Crema Corporal Lubriderm Reparacion Intensiva X 946ml",
+      "description": "Crema",
+      "price": 53.400,
+      "image": "/img/personal2.webp",
+      "category": "Cuidado Personal"
+    },
+    {
+      "id": 7,
+      "name": "Jabon Protex For Men x 110g 3 Und",
+      "description": "Jabones",
+      "price": 10.000,
+      "image": "/img/personal4.webp",
+      "category": "Cuidado Personal"
+    },
+    {
+      "id": 8,
+      "name": "Shampoo Dove Hidratacion Intensa X 400Ml",
+      "description": "Shampoo",
+      "price": 18.600,
+      "image": "/img/personal3.webp",
+      "category": "Cuidado Personal"
+    },
+    {
+      "id": 9,
+      "name": "Creatine Vitanas Time Micronized X 300G",
+      "description": "Ejercicio",
+      "price": 106.100,
+      "image": "/img/nutricion1.webp",
+      "category": "Nutrición"
+    },
+    {
+      "id": 10,
+      "name": "Ensure Clinical Liquido Vainilla X 220Ml",
+      "description": "Nutricionales",
+      "price": 13.350,
+      "image": "/img/nutricion2.webp",
+      "category": "Nutrición"
+    },
+    {
+      "id": 11,
+      "name": "Hidratante Going Uva X 300G",
+      "description": "Ejercicio",
+      "price": 66.950,
+      "image": "/img/nutricion3.webp",
+      "category": "Nutrición"
+    },
+    {
+      "id": 12,
+      "name": "Tarrito Rojo Jgb Super Contenido Tradicional x 380g",
+      "description": "Nutricionales",
+      "price": 22.200,
+      "image": "/img/nutricion4.webp",
+      "category": "Nutrición"
+    },
+    {
+      "id": 13,
+      "name": "Protector Solar Eucerin Oil Control Toque Seco Fps50 X 50Ml",
+      "description": "Bloqueadores",
+      "price": 133.700,
+      "image": "/img/belleza1.webp",
+      "category": "Belleza"
+    },
+    {
+      "id": 14,
+      "name": "Crema Bálsamo La Roche Posay Cicaplast Baume B5+ X 40ml",
+      "description": "Cicatrización",
+      "price": 46.850,
+      "image": "/img/belleza2.webp",
+      "category": "Belleza"
+    },
+    {
+      "id": 15,
+      "name": "Crema Bálsamo La Roche Posay Cicaplast Baume B5+ X 40ml",
+      "description": "Limpiador",
+      "price": 101.100,
+      "image": "/img/belleza3.png",
+      "category": "Belleza"
+    },
+    {
+      "id": 16,
+      "name": "Aceite de Ducha Ultra Nutritivo para Piel Seca a Muy Seca Bioderma Atoderm Huile X 1L",
+      "description": "Cuidado corporal",
+      "price": 196.750,
+      "image": "/img/belleza4.webp",
+      "category": "Belleza"
+    },
+    {
+      "id": 17,
+      "name": "Centrum Silver Women +50 X 60 Tabletas",
+      "description": "Vitaminas",
+      "price": 94.150,
+      "image": "/img/vitaminas1.webp",
+      "category": "Vitaminas y Suplementos"
+    },
+    {
+      "id": 18,
+      "name": "Gumivit Vitamina C Surtida Gomas X 84g X 12 Sobres",
+      "description": "Vitaminas",
+      "price": 21.200,
+      "image": "/img/vitaminas2.webp",
+      "category": "Vitaminas y Suplementos"
+    },
+    {
+      "id": 19,
+      "name": "Colageno Procaps 1000mg X 60 Tabletas",
+      "description": "Vitaminas",
+      "price": 51.750,
+      "image": "/img/vitaminas3.webp",
+      "category": "Vitaminas y Suplementos"
+    },
+    {
+      "id": 20,
+      "name": "Biotin Sundown Naturals 900Mg X 60 Tabletas",
+      "description": "Vitaminas",
+      "price": 51.350,
+      "image": "/img/vitaminas4.png",
+      "category": "Vitaminas y Suplementos"
+    }
+  ]

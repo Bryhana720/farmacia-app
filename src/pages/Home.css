@@ -1,0 +1,173 @@
+/* Home.css */
+
+.home-page {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
+}
+
+/* Banner principal */
+.banner {
+  background: linear-gradient(to right, #4CAF50, #81C784);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Categorías destacadas */
+.categories-section {
+  margin-bottom: 3rem;
+}
+
+.categories-section h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.category-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.category-card h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #4CAF50;
+}
+
+/* Ofertas especiales */
+.offers-section {
+  margin-top: 3rem;
+}
+
+.offers-section h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Contenedor de tarjetas de oferta */
+
+.offers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+/* Tarjeta individual */
+
+.offer-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+/* Efecto de animación al pasar el mouse */
+.offer-card:hover {
+  transform: scale(1.03);
+}
+
+
+
+.offer-card h3 {
+  font-size: 1.2rem;
+  color: #4CAF50;
+  margin-bottom: 0.5rem;
+}
+
+/* Imagen de la tarjeta de oferta */
+.offer-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+/* Texto de la tarjeta de oferta */
+.offer-card h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+/* Descripción de la tarjeta de oferta */
+.offer-card p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Precios */
+.offer-product .price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 0.5rem;
+}
+
+  
+original-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.discounted-price {
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 1rem;
+}
+
+/* Porcentaje de descuento */
+.discount-percent {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #20f027;
+  color: rgb(10, 9, 9);
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-top: 8px;
+  display: inline-block;
+  box-shadow: 0px 6px  rgba(0,0,0,0.2);
+  z-index: 1;
+}

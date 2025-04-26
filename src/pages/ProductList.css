@@ -1,0 +1,145 @@
+/* Página de productos */
+.product-page {
+  padding: 2rem;
+  background-color: #f4f4f4; /* Fondo gris claro */
+  font-family: 'Roboto', sans-serif; /* Fuentes más modernas */
+}
+
+.category-section {
+  margin-bottom: 2rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Mejora el tamaño mínimo de cada columna */
+  gap: 1.5rem; /* Aumenta el espacio entre productos */
+  padding: 1rem;
+}
+
+/* Tarjeta de producto */
+.product-card {
+  width: 100%;
+  max-width: 250px; /* Tamaño máximo más grande */
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  background: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  position: relative; /* Necesario para posicionar el botón */
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  background: #f1f1f1; /* Fondo más oscuro al pasar el ratón */
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 180px; /* Imágenes más grandes */
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-card .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4CAF50; /* Verde para precios */
+}
+
+.product-card .original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+}
+
+/* Botón de añadir al carrito */
+.product-card .add-to-cart-btn {
+  padding: 0.7rem 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 15px; /* Coloca el botón en la parte inferior */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+.product-card .add-to-cart-btn:hover {
+  background-color: #45a049;
+}
+
+/* Efectos en imágenes al pasar el ratón */
+.product-card img:hover {
+  opacity: 0.8;
+}
+
+/* Carrito y elementos del carrito */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.cart-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.cart-item h3 {
+  font-size: 1rem;
+  flex: 1;
+  color: #333;
+}
+
+.cart-item .price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Mejoras en la visualización en pantallas grandes */
+@media (min-width: 1200px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
+  }
+
+  .product-card {
+    max-width: 300px; /* Mayor tamaño máximo en pantallas grandes */
+  }
+}
+
+/* Animaciones y transición en las tarjetas */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.product-card:hover {
+  animation: pulse 1s ease-in-out infinite;
+}
